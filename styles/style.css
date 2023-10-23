@@ -1,0 +1,75 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.content-wrap {
+	max-width: 1440px;
+	margin: 80 auto;
+
+}
+
+.header-menu {
+	display: flex;
+
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 40px;
+  background: #2E4FD7;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+
+.btn:hover {
+  color: #2E4FD7;
+  background: #2E4FD7;
+}
+.jumbotron-container {
+    width: 100%; /* Розмі контейнера 100% ширини сторінки */
+}
+
+.jumbotron {
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1878&q=80);
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin-right: 100px; 
+}
+
+
+
+.text {
+    text-align: left; 
+}
+.logos {
+    margin-top: 20px;
+    display: flex;
+
+}
+.block-list {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.block {
+    margin-bottom: 20px; 
+}
+
+.icon {
+    width: 50px; /*кки */
+    height: 50px; /* Рори */
+    float: left;
+    margin-right: 10px; /* Відутом */
+}
